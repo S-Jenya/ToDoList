@@ -27,9 +27,9 @@ export default{
 </script>
 // scopes стили видны только внутри этого компанента
 <style scoped>
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 </style>

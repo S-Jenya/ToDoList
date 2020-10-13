@@ -31,10 +31,10 @@ export default {
 </script>
 
 <style scopes>
-form {
-  display: flex;
-}
-input {
-  width: 400px;
-}
+  form {
+    display: flex;
+  }
+  input {
+    width: 400px;
+  }
 </style>

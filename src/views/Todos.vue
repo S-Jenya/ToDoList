@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h2>ToDo application</h2>
-
+    <button @click="back" >Назад</button>
     <AddTodo
         @add-todo="addTodo"
     />
@@ -75,12 +74,14 @@ export default {
           setTimeout(() => {
             this.todos = json
             this.loading = false
-
-          })
+          }, 500)
 
         })
   },
   methods: {
+    back(){
+      this.$router.push('/');
+    },
     removeTodo(id){
       this.todos = this.todos.filter(t => t.id !== id)
     },
